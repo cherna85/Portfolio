@@ -2,11 +2,67 @@
 <html>
 <head>
 <title>Citlalli Hernandez</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.topnav a {
+    float: right;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+    font-size: 17px;
+}
+
+.name {
+    flex: 1;
+    float: right;
+    color: #000000;
+    font-weight: bold;
+    padding: 14px 16px;
+    font-size: 24px;
+}
+
+.topnav a:hover {
+    background-color: #c3d4f0;
+    color: rgb(0, 0, 0);
+}
+
+.topnav a.active {
+    background-color: #8b9ed4;
+    color: rgb(0, 0, 0);
+}
+
+
+</style>
 </head>
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<div class="topnav">
+    <div class="name">Citlalli Hernandez</div>
+    <a href="#news">Work Experience</a>
+    <a href="#news">Projects</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About Me</a>
+    <a class="active" href="#home">Home</a>
+</div>
+
+<div style="padding-left:16px">
+    <h2>Top Navigation Example</h2>
+    <p>Some content..</p>
+</div>
 
 </body>
 </html>
