@@ -46,10 +46,25 @@ body {
 }
 
 .square {
-  background-color: #c3d4f0;
-  width: 300px;
-  padding: 50px;
-  margin: 20px;
+    background-color: #c3d4f0;
+    width: screen;
+    padding: 50px;
+    margin: 20px;
+}
+
+.txtbox {
+    background-color: #ffffff;
+    width: 100px;
+    padding: 50px;
+    margin: 20px;
+}
+
+.image-cropper {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
 }
 
 </style>
@@ -67,6 +82,15 @@ body {
 
 <div class="square">
     <h2 id="about">About Me</h2>
+    <div class="image-cropper">
+        <img src="Cropped.png" alt="Graduation Photo" 
+                style="width:200px;height: 224px"
+                class="rounded" >
+    </div>
+    
+    <div class="txtbox">
+        he
+    </div>
     <p>Some content..</p>
 </div>
 
