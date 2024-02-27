@@ -57,6 +57,7 @@ body {
     width: 100px;
     padding: 50px;
     margin: 20px;
+    
 }
 
 .image-cropper {
@@ -65,6 +66,13 @@ body {
     position: relative;
     overflow: hidden;
     border-radius: 50%;
+}
+
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
 }
 
 </style>
@@ -82,16 +90,18 @@ body {
 
 <div class="square">
     <h2 id="about">About Me</h2>
-    <div class="image-cropper">
-        <img src="Cropped.png" alt="Graduation Photo" 
-                style="width:200px;height: 224px"
-                class="rounded" >
+    <div class="container">
+        <div class="image-cropper">
+            <img src="Cropped.png" alt="Graduation Photo" 
+                    style="width:200px;height: 224px"
+                    class="rounded" >
+        </div>
+        h
+        <div class="txtbox">
+            Blah balh info 
+        </div>
     </div>
     
-    <div class="txtbox">
-        he
-    </div>
-    <p>Some content..</p>
 </div>
 
 <div class="square">
