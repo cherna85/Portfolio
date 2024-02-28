@@ -6,6 +6,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
 }
 
 .topnav {
@@ -47,17 +48,16 @@ body {
 
 .square {
     background-color: #c3d4f0;
-    width: screen;
+    width: stretch;
     padding: 50px;
     margin: 20px;
 }
 
 .txtbox {
     background-color: #ffffff;
-    width: 100px;
+    width: stretch;
     padding: 50px;
     margin: 20px;
-    
 }
 
 .image-cropper {
@@ -66,13 +66,28 @@ body {
     position: relative;
     overflow: hidden;
     border-radius: 50%;
+    grid-area: image-cropper;
+}
+.subHead{
+    flex: 1;
+    float: right;
+    color: #000000;
+    padding-left: 36px;
+    text-indent: -36px;
+    font-size: 24px;
+    line-height: 40px;
 }
 
 .container {
     display: grid;
-    align-items: center; 
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
+    grid-template-areas:
+            "image-cropper image-cropper subHead"
+            "image-cropper image-cropper txtbox"
+            "image-cropper image-cropper txtbox";
+    align-content: start;
+    justify-content: start;
+    column-gap: 50px;
+
 }
 
 </style>
@@ -91,14 +106,23 @@ body {
 <div class="square">
     <h2 id="about">About Me</h2>
     <div class="container">
+
         <div class="image-cropper">
             <img src="Cropped.png" alt="Graduation Photo" 
                     style="width:200px;height: 224px"
                     class="rounded" >
         </div>
-        h
+        <div class="subHead">
+            <b>
+                Citlalli Hernandez <br>
+            </b>
+                Computer Scientist | Game Designer
+        </div>
+        
         <div class="txtbox">
-            Blah balh info 
+            Collaborative Computer Science: Game Design graduate, 
+            Enjoys learning and is dedicated in learning whatever
+            skills needed to finish a goal
         </div>
     </div>
     
