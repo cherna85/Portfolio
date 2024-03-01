@@ -3,16 +3,29 @@
 <head>
 <title>Citlalli Hernandez</title>
 <style>
+html{
+    height: 100%;
+    width: 100%;
+}
 body {
     margin: 0;
+    height:75%;
+    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    justify-content: center;
 }
 
 .topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
     background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
     display: flex;
+    z-index: 1;
+
 }
 
 .topnav a {
@@ -48,9 +61,20 @@ body {
 
 .square {
     background-color: #c3d4f0;
-    width: stretch;
+    width: screen;
+    height: 100%;
     padding: 50px;
     margin: 20px;
+    background-position: centers;
+    border: 15px solid rgb(255, 255, 255);
+    
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -28px;
+    visibility: hidden;
 }
 
 .txtbox {
@@ -103,8 +127,10 @@ body {
     <a class="active" href="#about">About Me</a>
 </div>
 
+<a class="anchor" id="about">
+</a>
 <div class="square">
-    <h2 id="about">About Me</h2>
+    <h2>About Me</h2>
     <div class="container">
 
         <div class="image-cropper">
@@ -128,23 +154,27 @@ body {
     
 </div>
 
+<a class="anchor" id="contact"></a>
 <div class="square">
-    <h2 id="contact">Contact</h2>
+    <h2>Contact</h2>
     <p>Some content..</p>
 </div>
 
+<a class="anchor" id="projects"></a>
 <div class="square">
-    <h2 id="projects">Projects</h2>
+    <h2>Projects</h2>
     <p>Some content..</p>
 </div>
 
+<a class="anchor" id="work_experience"></a>
 <div class="square">
-    <h2 id="work_experience">Work Experience</h2>
+    <h2>Work Experience</h2>
     <p>Some content..</p>
 </div>
 
+<a class="anchor" id="current"></a>
 <div class="square">
-    <h2 id="current">Current Projects</h2>
+    <h2 >Current Projects</h2>
     <p>Some content..</p>
 </div>
 
