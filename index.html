@@ -14,6 +14,30 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a:link {
+    color:  #8b9ed4;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color:  #3e4864;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a75ca3;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color:  #a75ca3;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 .topnav {
     list-style-type: none;
     margin: 0;
@@ -84,6 +108,7 @@ a.anchor {
     width: stretch;
     padding: 50px;
     margin: 20px;
+    grid-area: txtbox;
 }
 
 .image-cropper {
@@ -94,7 +119,7 @@ a.anchor {
     border-radius: 50%;
     grid-area: image-cropper;
 }
-.subHead{
+.subCent{
     flex: 1;
     float: right;
     color: #000000;
@@ -103,12 +128,13 @@ a.anchor {
     font-size: 24px;
     line-height: 40px;
     align-self: center;
+    grid-area: subCent;
 }
 
 .container {
     display: grid;
     grid-template-areas:
-            "image-cropper image-cropper subHead"
+            "image-cropper image-cropper subCent"
             "image-cropper image-cropper txtbox"
             "image-cropper image-cropper txtbox";
     column-gap: 50px;
@@ -117,6 +143,45 @@ a.anchor {
     align-items: center;
     justify-content: center;
     flex-grow: 10;
+}
+
+.container_About_Contact {
+    display: grid;
+    grid-template-areas:
+            "subhead subHead subHead"
+            "links txtbox txtbox"
+            "links txtbox txtbox";
+    column-gap: 50px;
+    place-content: center;
+    border: 15px solid  #5671bb;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 10;
+}
+
+.subHead{
+    flex: 1;
+    float: left;
+    color: #000000;
+    padding-left: 36px;
+    text-indent: -36px;
+    font-size: 24px;
+    line-height: 40px;
+    align-self: left;
+    grid-area: subHead;
+}
+
+
+.links{
+    flex: 1;
+    float: right;
+    color: #000000;
+    padding-left: 36px;
+    text-indent: -36px;
+    font-size: 20px;
+    line-height: 40px;
+    align-self: center;
+    grid-area: links;
 }
 
 </style>
@@ -128,21 +193,21 @@ a.anchor {
     <a href="#current">Current Projects</a>
     <a href="#work_experience">Work Experience</a>
     <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-    <a class="active" href="#about">About Me</a>
+    <a href="#contact">Contact/About</a>
+    <a class="active" href="#about">Home</a>
 </div>
 
 <a class="anchor" id="about">
 </a>
 <div class="square">
-        <h2>About Me<br></h2>
+        
     <div class="container">
         <div class="image-cropper">
             <img src="Cropped.png" alt="Graduation Photo" 
                     style="width:200px;height: 224px"
                     class="rounded" >
         </div>
-        <div class="subHead">
+        <div class="subCent">
             <b>
                 Citlalli Hernandez <br>
             </b>
@@ -161,7 +226,34 @@ a.anchor {
 <a class="anchor" id="contact"></a>
 <div class="square">
     <h2>Contact</h2>
-    <p>Some content..</p>
+    <div class="container_About_Contact">
+        <div class="subHead">
+            <b>
+                Citlalli Hernandez 
+            </b>
+                Computer Scientist | Game Designer
+        </div>
+
+        <div class="links">
+            <b>
+                Contact:<br>
+            </b>
+            <a font color = #8b9ed4 target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/citlalli-hernandez-80b4052b0/">LinkedIn</a>
+
+        </div>
+
+        <div class="txtbox">
+            Collaborative Computer Science: Game Design graduate, 
+            has experience working in team settings;
+            in addition to picking up tasks to work independently.
+
+            Has an eye for design and understands the importance of giving and receiving feedback.
+
+            Has Exprie
+
+        </div>
+
+    </div>
 </div>
 
 <a class="anchor" id="projects"></a>
