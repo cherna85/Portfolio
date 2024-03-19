@@ -2,189 +2,7 @@
 <html>
 <head>
 <title>Citlalli Hernandez</title>
-<style>
-html{
-    height: 100%;
-    width: 100%;
-}
-body {
-    margin: 0;
-    height:75%;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-a:link {
-    color:  #8b9ed4;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:visited {
-    color:  #3e4864;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #a75ca3;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-a:active {
-    color:  #a75ca3;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    display: flex;
-    z-index: 1;
-
-}
-
-.topnav a {
-    float: right;
-    color: #000000;
-    font-weight: bold;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 4px;
-    font-size: 17px;
-}
-
-.name {
-    flex: 1;
-    float: right;
-    color: #000000;
-    font-weight: bold;
-    padding: 14px 16px;
-    font-size: 24px;
-}
-
-.topnav a:hover {
-    background-color: #c3d4f0;
-    color: rgb(0, 0, 0);
-}
-
-.topnav a.active {
-    background-color: #8b9ed4;
-    color: rgb(0, 0, 0);
-}
-
-.square {
-    background-color: #c3d4f0;
-    width: screen;
-    height: 100%;
-    padding: 50px;
-    padding-bottom: 50px;
-    margin: 20px;
-    background-position: centers;
-    border: 15px solid rgb(255, 255, 255); 
-    display: flex;
-    flex-direction: column;
-}
-
-a.anchor {
-    display: block;
-    position: relative;
-    top: -28px;
-    visibility: hidden;
-}
-
-.txtbox {
-    background-color: #ffffff;
-    width: stretch;
-    padding: 50px;
-    margin: 20px;
-    grid-area: txtbox;
-}
-
-.image-cropper {
-    width: 200px;
-    height: 200px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-    grid-area: image-cropper;
-}
-.subCent{
-    flex: 1;
-    float: right;
-    color: #000000;
-    padding-left: 36px;
-    text-indent: -36px;
-    font-size: 24px;
-    line-height: 40px;
-    align-self: center;
-    grid-area: subCent;
-}
-
-.container {
-    display: grid;
-    grid-template-areas:
-            "image-cropper image-cropper subCent"
-            "image-cropper image-cropper txtbox"
-            "image-cropper image-cropper txtbox";
-    column-gap: 50px;
-    place-content: center;
-    border: 15px solid  #5671bb;
-    align-items: center;
-    justify-content: center;
-    flex-grow: 10;
-}
-
-.container_About_Contact {
-    display: grid;
-    grid-template-areas:
-            "subHead subHead subHead"
-            "links txtbox txtbox"
-            "links txtbox txtbox";
-    column-gap: 50px;
-    place-content: center;
-    border: 15px solid  #5671bb;
-    align-items: center;
-    justify-content: center;
-    flex-grow: 10;
-}
-
-.subHead{
-    flex: 1;
-    float: left;
-    color: #000000;
-    padding-left: 36px;
-    text-indent: -36px;
-    font-size: 24px;
-    line-height: 40px;
-    align-self: left;
-    grid-area: subHead;
-}
-
-
-.links{
-    flex: 1;
-    float: right;
-    color: #000000;
-    padding-left: 36px;
-    text-indent: -36px;
-    font-size: 20px;
-    line-height: 40px;
-    align-self: center;
-    grid-area: links;
-}
-
-</style>
+<link rel="stylesheet" type="text/css" href="style.css" /> 
 </head>
 <body>
 
@@ -229,7 +47,7 @@ a.anchor {
     <div class="container_About_Contact">
         <div class="subHead">
             <b>
-                Citlalli Hernandez 
+                Citlalli Hernandez <br>
             </b>
                 Computer Scientist | Game Designer
         </div>
@@ -265,22 +83,88 @@ a.anchor {
 </div>
 
 <a class="anchor" id="projects"></a>
-<div class="square">
-    <h2>Projects</h2>
-    <p>Some content..</p>
+<div class="square_row">
+    <div class="subHead">
+        <b>
+            Projects <br>
+        </b>
+    </div>
+    
+    <div class="container_Projetcs">
+        <div class="poster">
+            <img src="Project Images\Lucky.png" alt="Lucky" 
+                    style="width: 356x;height: 200px"
+                    class="rounded" >
+        </div>
+        <div class="pDesc">
+                <b>Role:</b> Programmer <br>
+                <b>Synopsis:</b> blaklalknjdkef;vbhefb;kjfb
+
+        </div>
+    </div>
+    <div class="container_Projetcs">
+        <div class="poster">
+            <img src="Project Images\Lucky.png" alt="Lucky" 
+                    style="width: 356x;height: 200px"
+                    class="rounded" >
+        </div>
+        <div class="pDesc">
+                <b>Role:</b> Programmer <br>
+                <b>Synopsis:</b> blaklalknjdkef;vbhefb;kjfb
+
+        </div>
+    </div>
+
+    <div class="container_Projetcs">
+        <div class="poster">
+            <img src="Project Images\Lucky.png" alt="Lucky" 
+                    style="width: 356x;height: 200px"
+                    class="rounded" >
+        </div>
+        <div class="pDesc">
+                <b>Role:</b> Programmer <br>
+                <b>Synopsis:</b> blaklalknjdkef;vbhefb;kjfb
+
+        </div>
+    </div>
+
+    <div class="container_Projetcs">
+        <div class="poster">
+            <img src="Project Images\Lucky.png" alt="Lucky" 
+                    style="width: 356x;height: 200px"
+                    class="rounded" >
+        </div>
+        <div class="pDesc">
+                <b>Role:</b> Programmer <br>
+                <b>Synopsis:</b> blaklalknjdkef;vbhefb;kjfb
+
+        </div>
+    </div>
+
 </div>
 
 <a class="anchor" id="work_experience"></a>
 <div class="square">
-    <h2>Work Experience</h2>
+    <h2>Experience</h2>
     <div class="txtbox">
-        <p><h3>Team Game Development 2020-2023</h3>
+        <p><h3>Team Game Development: <i>2020-2023</i></h3>
         <p style = "margin-left: 25px;"> 
         <ul>
             <li> Collaborated on a Team to Devlop virtual games</li>
             <li> Developed Game Mechanics using Phaser, JavaScript,Unity, and Crisp-Game-Lib</li>
             <li> Developed UI using Phaser,JavaScript, Unity, and Crisp-Game-Lib</li>
-            <li> Helped Design diffrent aspects of character,world and UI Design</li>
+            <li> Helped design diffrent aspects of character,world and UI Design</li>
+        </ul>
+        </p>
+    </div>
+    <div class="txtbox">
+        <p><h3>Mobile Development: <i>2022</i></h3>
+        <p style = "margin-left: 25px;"> 
+        <ul>
+            <li>Developed a series of mobile apps in XCode, Android Studios, Node.js</li>
+            <li> Developed apps in under a short time frame</li>
+            <li> Used RESTful api to send and recieve data</li>
+            <li> Designed app under detailed specifications</li>
         </ul>
         </p>
     </div>

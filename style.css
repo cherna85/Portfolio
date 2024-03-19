@@ -1,0 +1,224 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body {
+    margin: 0;
+    height:75%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {
+    color:  #8b9ed4;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color:  #3e4864;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a75ca3;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color:  #a75ca3;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    z-index: 1;
+
+}
+
+.topnav a {
+    float: right;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+    font-size: 17px;
+}
+
+.name {
+    flex: 1;
+    float: right;
+    color: #000000;
+    font-weight: bold;
+    padding: 14px 16px;
+    font-size: 24px;
+}
+
+.topnav a:hover {
+    background-color: #c3d4f0;
+    color: rgb(0, 0, 0);
+}
+
+.topnav a.active {
+    background-color: #8b9ed4;
+    color: rgb(0, 0, 0);
+}
+
+.square {
+    background-color: #c3d4f0;
+    width: screen;
+    height: 100%;
+    padding: 50px;
+    padding-bottom: 50px;
+    margin: 20px;
+    background-position: centers;
+    border: 15px solid rgb(255, 255, 255); 
+    display: flex;
+    flex-direction: column;
+}
+
+.square_row {
+    background-color: #c3d4f0;
+    width: screen;
+    height: 100%;
+    padding: 50px;
+    padding-bottom: 50px;
+    margin: 20px;
+    background-position: centers;
+    border: 15px solid rgb(255, 255, 255); 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -28px;
+    visibility: hidden;
+}
+
+.txtbox {
+    background-color: #ffffff;
+    width: stretch;
+    padding: 50px;
+    margin: 20px;
+    grid-area: txtbox;
+}
+
+.image-cropper {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    grid-area: image-cropper;
+}
+.subCent{
+    flex: 1;
+    float: right;
+    color: #000000;
+    padding-left: 36px;
+    text-indent: -36px;
+    font-size: 24px;
+    line-height: 40px;
+    align-self: center;
+    grid-area: subCent;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+            "image-cropper image-cropper subCent"
+            "image-cropper image-cropper txtbox"
+            "image-cropper image-cropper txtbox";
+    column-gap: 50px;
+    place-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 10;
+}
+
+.container_About_Contact {
+    display: grid;
+    grid-template-areas:
+            "subHead subHead subHead"
+            "links txtbox txtbox"
+            "links txtbox txtbox";
+    column-gap: 50px;
+    place-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 10;
+}
+
+.container_Projetcs {
+    width: 33%;
+    display: grid;
+    grid-template-areas:
+            "poster poster poster"
+            "poster poster poster"
+            "pDesc pDesc pDesc";
+    column-gap: 50px;
+    border: 15px solid  #5671bb;
+    flex-wrap: wrap;
+    white-space: nowrap;
+}
+
+.poster{
+    width:200px;
+    height: 224px;
+    grid-area: poster; 
+}
+
+.pDesc{
+    flex: 1;
+    color: #000000;
+    text-indent: -36px;
+    font-size: 24px;
+    line-height: 40px;
+    grid-area: subHead;
+    align-items: left;
+}
+
+.subHead{
+    flex: 1;
+    float: left;
+    color: #000000;
+    padding-left: 36px;
+    text-indent: -36px;
+    font-size: 24px;
+    line-height: 40px;
+    align-self: left;
+    grid-area: subHead;
+    flex-basis: 100%
+}
+
+
+.links{
+    flex: 1;
+    float: right;
+    color: #000000;
+    padding-left: 36px;
+    text-indent: -36px;
+    font-size: 20px;
+    line-height: 40px;
+    align-self: center;
+    grid-area: links;
+}
