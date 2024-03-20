@@ -94,7 +94,7 @@ a:active {
 .square_row {
     background-color: #c3d4f0;
     width: screen;
-    height: 100%;
+    height: auto;
     padding: 50px;
     padding-bottom: 50px;
     margin: 20px;
@@ -103,7 +103,6 @@ a:active {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
 }
 
 
@@ -169,7 +168,7 @@ a.anchor {
 }
 
 .container_Projetcs {
-    width: 33%;
+    width: 30%;
     display: grid;
     grid-template-areas:
             "poster poster poster"
@@ -178,23 +177,22 @@ a.anchor {
     column-gap: 50px;
     border: 15px solid  #5671bb;
     flex-wrap: wrap;
-    white-space: nowrap;
+
 }
 
 .poster{
-    width:200px;
-    height: 224px;
-    grid-area: poster; 
+    grid-area: poster;
+    border: 15px solid  #5c3f5b; 
+    align-items: center;
+    margin: auto;
 }
 
 .pDesc{
-    flex: 1;
     color: #000000;
-    text-indent: -36px;
     font-size: 24px;
     line-height: 40px;
-    grid-area: subHead;
-    align-items: left;
+    grid-area: pDesc;
+    border: 15px solid  #56bb91cb;
 }
 
 .subHead{
