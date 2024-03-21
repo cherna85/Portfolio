@@ -174,16 +174,14 @@ a.anchor {
             "poster poster poster"
             "poster poster poster"
             "pDesc pDesc pDesc";
-    column-gap: 50px;
-    border: 15px solid  #5671bb;
     flex-wrap: wrap;
-
+    justify-self: center;
+    
 }
 
 .poster{
     grid-area: poster;
-    border: 15px solid  #5c3f5b; 
-    align-items: center;
+    justify-content: center;
     margin: auto;
 }
 
@@ -192,7 +190,7 @@ a.anchor {
     font-size: 24px;
     line-height: 40px;
     grid-area: pDesc;
-    border: 15px solid  #56bb91cb;
+    margin: auto;
 }
 
 .subHead{
