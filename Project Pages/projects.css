@@ -78,10 +78,10 @@ a:active {
     color: rgb(0, 0, 0);
 }
 
-.square {
+.square_proj {
     background-color: #c3d4f0;
     width: screen;
-    height: 100%;
+    min-height: 100%;
     padding: 50px;
     padding-bottom: 50px;
     margin: 20px;
@@ -89,5 +89,48 @@ a:active {
     border: 15px solid rgb(255, 255, 255); 
     display: flex;
     flex-direction: column;
+    
+}
+
+.container_proj {
+    display: grid;
+    grid-template-areas:
+            "moviePoster subHead subHead"
+            "moviePoster txtbox txtbox"
+            "moviePoster txtbox txtbox";
+    column-gap: 50px;
+    place-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 10;
+    border: 15px solid rgb(118, 142, 30); 
+
+}
+
+.poster{
+    grid-area: moviePoster;
+    justify-content: center;
+    margin: auto;
+}
+
+.txtbox {
+    background-color: #ffffff;
+    width: stretch;
+    padding: 50px;
+    margin: 20px;
+    grid-area: txtbox;
+}
+
+.subHead{
+    flex: 1;
+    float: left;
+    color: #000000;
+    padding-left: 36px;
+    text-indent: -36px;
+    font-size: 24px;
+    line-height: 40px;
+    align-self: left;
+    grid-area: subHead;
+    flex-basis: 100%
 }
 
