@@ -177,6 +177,7 @@ a.anchor {
             "pDesc pDesc pDesc";
     flex-wrap: wrap;
     justify-self: center;
+    border: 15px solid rgb(167, 73, 73); 
     
 }
 
@@ -184,6 +185,7 @@ a.anchor {
     grid-area: poster;
     justify-content: center;
     margin: auto;
+    border: 15px solid rgb(25, 142, 150); 
 }
 
 .pDesc{
@@ -193,6 +195,7 @@ a.anchor {
     line-height: 40px;
     grid-area: pDesc;
     margin: auto;
+    border: 15px solid rgb(17, 19, 118); 
 }
 
 .subHead{

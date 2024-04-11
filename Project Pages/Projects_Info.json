@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Lucky",
+                "contents": 
+                [{
+                    "ImgPath":"..\/Project Images\/Lucky.png",
+                    "Subtitle": 
+                    [{
+                        "ItchPath":  "https://citlalli-h.itch.io/lucky",
+                        "Position": "Programmer"
+                    }],
+                    "Desc":
+                    [{
+                        "Type": "DeckBuilder",
+                        "Synopsis": "Lucky is game",
+                        "Work": 
+                        [{
+                            "Programming": " I programmed"
+                        }]
+                    }]
+                    
+
+                    
+
+                }]
+    },
+
+    {
+        "name": "NOPE",
+                "contents": 
+                [{
+                    "ImgPath":"NOPE",
+                    "Subtitle": 
+                    [{
+                        "ItchPath":  "NOPE",
+                        "Position": "NOPE"
+                    }],
+                    "Desc":
+                    [{
+                        "Type": "NOPE",
+                        "Synopsis": "NOPE",
+                        "Work": 
+                        [{
+                            "Programming": " NOPE"
+                        }]
+                    }]
+
+                }]
+    }
+    
+]

@@ -95,7 +95,7 @@ a:active {
 .container_proj {
     display: grid;
     grid-template-areas:
-            "moviePoster subHead subHead"
+            "moviePoster subHead itchLink"
             "moviePoster txtbox txtbox"
             "moviePoster txtbox txtbox";
     column-gap: 50px;
@@ -133,4 +133,18 @@ a:active {
     grid-area: subHead;
     flex-basis: 100%
 }
+
+.itchLink{
+    flex: 1;
+    float: left;
+    color: #000000;
+    padding-left: 36px;
+    text-indent: -36px;
+    font-size: 24px;
+    line-height: 40px;
+    align-self: left;
+    grid-area: itchLink;
+    flex-basis: 100%
+}
+
 
