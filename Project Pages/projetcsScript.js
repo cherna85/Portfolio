@@ -38,5 +38,8 @@ document.getElementById("change_Poster").src = info[projNum].contents[0].ImgPath
 document.getElementById("change_Position").innerHTML = info[projNum].contents[0].Subtitle[0].Position;
 // change itch Linkj
 document.getElementById("change_Link").href = info[projNum].contents[0].Subtitle[0].ItchPath;
+//change the type of the game 
+document.getElementById("change_Type").innerHTML = info[projNum].contents[0].Desc[0].Type;
 
-document.getElementById("change_desc").innerHTML = info[projNum].contents[0].Desc[0].Type;
+//Programming description
+document.getElementById("change_P_Desc").innerHTML  = info[projNum].contents[0].Desc[0].Work[0].Programming;
