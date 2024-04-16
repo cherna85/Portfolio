@@ -6,13 +6,13 @@
 </head>
 <body>
 
-<div class="topnav">
+<div id = "topNav" class="topnav" >
     <div class="name">Citlalli Hernandez</div>
-    <li><a href="#current">Current Projects</a></li>
-    <li><a href="#work_experience">Work Experience</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#contact">Contact/About</a></li>
-    <li><a href="#about">Home</a></li>
+    <a onclick= "changeTop('current')" href="#current">Current Projects</a>
+    <a onclick= "changeTop('work_experience')" href="#work_experience">Work Experience</a>
+    <a onclick= "changeTop('projects')" href="#projects">Projects</a>
+    <a onclick= "changeTop('contact')" href="#contact">Contact/About</a>
+    <a onclick= "changeTop('about')" href="#about">Home</a>
 </div>
 
 <a class="anchor" id="about">
@@ -100,7 +100,7 @@ Communication, Collaboration, Leadership, Customer Service, Able to learn quickl
         <a href="Project Pages\Project.html?Proj=Lucky" target="_self">
             <div class="poster">
                 <img src="Project Images\Lucky.png" alt="Lucky" 
-                        style="width: 494;height: 278px"
+                        style="width: 494px;height: 278px"
                         class="rounded" >
             </div>
             <div class="pDesc">
@@ -157,7 +157,6 @@ Communication, Collaboration, Leadership, Customer Service, Able to learn quickl
 
 </body>
 
-<script>
-    console.log(document.getElementsByClassName("topnav")[0] + "at some point make the topnav change colors aswell");  
+<script src="UIScript.js">
 </script>
 </html>

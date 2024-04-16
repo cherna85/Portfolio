@@ -33,6 +33,7 @@ document.getElementById("change_Name").innerHTML = info[projNum].name;
 //change image
 document.getElementById("change_Poster").src = info[projNum].contents[0].ImgPath;
 //change size
+document.getElementById("change_Poster").style = info[projNum].contents[0].ImgStyle;
 
 //Subtitle
 document.getElementById("change_Position").innerHTML = info[projNum].contents[0].Subtitle[0].Position;
@@ -40,6 +41,15 @@ document.getElementById("change_Position").innerHTML = info[projNum].contents[0]
 document.getElementById("change_Link").href = info[projNum].contents[0].Subtitle[0].ItchPath;
 //change the type of the game 
 document.getElementById("change_Type").innerHTML = info[projNum].contents[0].Desc[0].Type;
+//change type
+document.getElementById("change_Play").innerHTML = info[projNum].contents[0].Desc[0].PlayType;
+
+//change synopsis 
+document.getElementById("change_Synopsis").innerHTML = info[projNum].contents[0].Desc[0].Synopsis;
 
 //Programming description
 document.getElementById("change_P_Desc").innerHTML  = info[projNum].contents[0].Desc[0].Work[0].Programming;
+//UI/X Desctiption
+document.getElementById("change_UI_Desc").innerHTML  = info[projNum].contents[0].Desc[0].Work[0].UI;
+//design Desctiption
+document.getElementById("change_Design_Desc").innerHTML  = info[projNum].contents[0].Desc[0].Work[0].Design;

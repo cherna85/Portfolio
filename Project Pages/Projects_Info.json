@@ -1,35 +1,8 @@
-[
-    {
-        "name": "Lucky",
-                "contents": 
-                [{
-                    "ImgPath":"..\/Project Images\/Lucky.png",
-                    "Subtitle": 
-                    [{
-                        "ItchPath":  "https://citlalli-h.itch.io/lucky",
-                        "Position": "Programmer"
-                    }],
-                    "Desc":
-                    [{
-                        "Type": "DeckBuilder",
-                        "Synopsis": "Lucky is game",
-                        "Work": 
-                        [{
-                            "Programming": " I programmed"
-                        }]
-                    }]
-                    
-
-                    
-
-                }]
-    },
-
-    {
+[ {
         "name": "NOPE",
                 "contents": 
                 [{
-                    "ImgPath":"NOPE",
+                    "ImgPath":"..\/Project Images\/Arlo_Placeholder.png",
                     "Subtitle": 
                     [{
                         "ItchPath":  "NOPE",
@@ -38,10 +11,63 @@
                     "Desc":
                     [{
                         "Type": "NOPE",
+                        "PlayType": "CANT PLAY IT",
                         "Synopsis": "NOPE",
                         "Work": 
                         [{
-                            "Programming": " NOPE"
+                            "Design": "Nope",
+                            "Programming": " NOPE",
+                            "UI": "NOOPE"
+                        }]
+                    }]
+
+                }]
+    },
+    {
+        "name": "Lucky",
+                "contents": 
+                [{
+                    "ImgPath":"..\/Project Images\/Lucky.png",
+                    "ImgStyle": "width: 494px;height: 278px",
+                    "Subtitle": 
+                    [{
+                        "ItchPath":  "https://citlalli-h.itch.io/lucky",
+                        "Position": "Programmer"
+                    }],
+                    "Desc":
+                    [{
+                        "Type": "DeckBuilder, TurnBased RPG",
+                        "PlayType": "Downloadable on Itch.io",
+                        "Synopsis": "Being a witch can be hard, and being a gambler can be even harder, follow Lucky in her journey to pay off her gambling debt. \n Lucky is a turn-based RPG with slot-machine combat mechanics.",
+                        "Work": 
+                        [{
+                            "Design": "Helped develop the Main Scenario and World",
+                            "Programming": "Part of a small team that helepd develop the game. Developed a Slot Machine Mechanic, Combat System,Dialogue System, Card Interactions, Item usage, Dictionary, etc.",
+                            "UI":"Helped develop and program Menu Page,Credit Page and Menu Page Navigation"
+                        }]
+                    }]
+                }]
+    },
+    {
+        "name": "You Are A Ghost",
+                "contents": 
+                [{
+                    "ImgPath":"..\/Project Images\/Arlo_Placeholder.png",
+                    "Subtitle": 
+                    [{
+                        "ItchPath":  "NOPE",
+                        "Position": "NOPE"
+                    }],
+                    "Desc":
+                    [{
+                        "Type": "NOPE",
+                        "PlayType": "CANT PLAY IT",
+                        "Synopsis": "NOPE",
+                        "Work": 
+                        [{
+                            "Design": "Nope",
+                            "Programming": " NOPE",
+                            "UI": "NOOPE"
                         }]
                     }]
 
