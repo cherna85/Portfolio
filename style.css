@@ -170,6 +170,7 @@ a.anchor {
 
 .container_Projetcs {
     width: 30%;
+    padding: 10px;
     display: grid;
     grid-template-areas:
             "poster poster poster"
@@ -177,6 +178,7 @@ a.anchor {
             "pDesc pDesc pDesc";
     flex-wrap: wrap;
     justify-self: center;
+    border: 15px solid#c3d4f0; 
     
 }
 

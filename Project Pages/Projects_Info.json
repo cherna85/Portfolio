@@ -3,6 +3,7 @@
                 "contents": 
                 [{
                     "ImgPath":"..\/Project Images\/Arlo_Placeholder.png",
+                    "ImgStyle": "width: 494px;height: 278px",
                     "Subtitle": 
                     [{
                         "ItchPath":  "NOPE",
@@ -32,7 +33,7 @@
                     "Subtitle": 
                     [{
                         "ItchPath":  "https://citlalli-h.itch.io/lucky",
-                        "Position": "Programmer"
+                        "Position": "Programmer-2023"
                     }],
                     "Desc":
                     [{
@@ -52,22 +53,75 @@
         "name": "You Are A Ghost",
                 "contents": 
                 [{
-                    "ImgPath":"..\/Project Images\/Arlo_Placeholder.png",
+                    "ImgPath":"..\/Project Images\/YouAreAGhost.png",
+                    "ImgStyle": "width: 494px;height: 278px",
                     "Subtitle": 
                     [{
-                        "ItchPath":  "NOPE",
-                        "Position": "NOPE"
+                        "ItchPath":  "https://citlalli-h.itch.io/you-are-a-ghost",
+                        "Position": "Lead Programmer-2022"
                     }],
                     "Desc":
                     [{
-                        "Type": "NOPE",
-                        "PlayType": "CANT PLAY IT",
-                        "Synopsis": "NOPE",
+                        "Type": "Point and Click, Interactive Narrative",
+                        "PlayType": "Downloadable on Itch.io",
+                        "Synopsis": "You Are a Ghost is a point and click narrative game that uses fun and bright aesthetics to help the player digest a very depressing and realistic story. Dive into the lives of this mundane family and help them tackle their greatest fears, issues, and insecurities.",
                         "Work": 
                         [{
-                            "Design": "Nope",
-                            "Programming": " NOPE",
-                            "UI": "NOOPE"
+                            "Design": "Helped develop the Main Scenario",
+                            "Programming": "Worked with Technical Designer to Program most gameplay aspects of game. Programmed Pathfinding, Dialogue, SpeechBubbles, etc. ",
+                            "UI": "Worked on Main Menu and Navigation"
+                        }]
+                    }]
+
+                }]
+    },
+    {
+        "name": "Radical Witch",
+                "contents": 
+                [{
+                    "ImgPath":"..\/Project Images\/RadicalWitch.png",
+                    "ImgStyle": "width: 494px;height: 278px",
+                    "Subtitle": 
+                    [{
+                        "ItchPath":  "https://samuraimantis.itch.io/radical-witch",
+                        "Position": "Programmer-2021"
+                    }],
+                    "Desc":
+                    [{
+                        "Type": "Action, Endless Runner",
+                        "PlayType": "Play in Browser on Itch.io",
+                        "Synopsis": "This is an endless runner-style game about a witch seeking to cause chaos in a dull world populated by cutesy ghosts. Throw bombs at ghosts to earn points and use the explosive force to launch yourself upwards and continue your rampage for as long as possible! Experience a rapidly increasing challenge as the game gets faster the more you score.",
+                        "Work": 
+                        [{
+                            "Design": " ",
+                            "Programming": "Part of a small team of Developers, Developed the Ghost Spawner and Point system",
+                            "UI": "Developed Main Menu and Navigation"
+                        }]
+                    }]
+
+                }]
+    },
+    {
+        "name": "Edge of Detection",
+                "contents": 
+                [{
+                    "ImgPath":"..\/Project Images\/EdgeOfDetection.png",
+                    "ImgStyle": "width: 494px;height: 278px",
+                    "Subtitle": 
+                    [{
+                        "ItchPath":  "https://citlalli-h.itch.io/edge-of-detection",
+                        "Position": "Programmer-2022"
+                    }],
+                    "Desc":
+                    [{
+                        "Type": "Stealth Platformer",
+                        "PlayType": "Play in Browser on Itch.io",
+                        "Synopsis": "Edge of Detection is a 2D stealth platformer. You have a disguise that you can use to ‘fit in’ and prevent being detected by enemies, but it only lasts a few seconds and takes time to put on. ",
+                        "Work": 
+                        [{
+                            "Design": "Helped develop the Main Scenario",
+                            "Programming": " Developed Detection system (with Raycast), Helped create SFX",
+                            "UI": "Helped develop Main Menu and Navigation"
                         }]
                     }]
 
