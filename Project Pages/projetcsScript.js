@@ -46,10 +46,16 @@ document.getElementById("change_Play").innerHTML = info[projNum].contents[0].Des
 
 //change synopsis 
 document.getElementById("change_Synopsis").innerHTML = info[projNum].contents[0].Desc[0].Synopsis;
+document.getElementById("change_Synopsis2").innerHTML = info[projNum].contents[0].Desc[0].Synopsis2;
 
 //Programming description
 document.getElementById("change_P_Desc").innerHTML  = info[projNum].contents[0].Desc[0].Work[0].Programming;
+
 //UI/X Desctiption
 document.getElementById("change_UI_Desc").innerHTML  = info[projNum].contents[0].Desc[0].Work[0].UI;
 //design Desctiption
 document.getElementById("change_Design_Desc").innerHTML  = info[projNum].contents[0].Desc[0].Work[0].Design;
+
+//steps and thinking 
+document.getElementById("change_Steps").innerHTML = info[projNum].contents[0].Steps;
+document.getElementById("change_Design_think").innerHTML = info[projNum].contents[0].Des_Think;

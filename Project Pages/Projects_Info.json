@@ -14,14 +14,17 @@
                         "Type": "NOPE",
                         "PlayType": "CANT PLAY IT",
                         "Synopsis": "NOPE",
+                        "Synopsis2": "NOPE2",
                         "Work": 
                         [{
                             "Design": "Nope",
                             "Programming": " NOPE",
                             "UI": "NOOPE"
                         }]
-                    }]
-
+                    }],
+                    "Steps": "NONE",
+                    "Des_Think": "DIDN't"
+                        
                 }]
     },
     {
@@ -33,20 +36,23 @@
                     "Subtitle": 
                     [{
                         "ItchPath":  "https://citlalli-h.itch.io/lucky",
-                        "Position": "Programmer-2023"
+                        "Position": "Programmer - 2023"
                     }],
                     "Desc":
                     [{
                         "Type": "DeckBuilder, TurnBased RPG",
                         "PlayType": "Downloadable on Itch.io",
-                        "Synopsis": "Being a witch can be hard, and being a gambler can be even harder, follow Lucky in her journey to pay off her gambling debt. \n Lucky is a turn-based RPG with slot-machine combat mechanics.",
+                        "Synopsis": "This game was developed for UCSC CMPM 173 Game Design Studio III as a Senior Project. The process of brainstorming, developing, prototyping, and final prototype was developed in 10 weeks. The game had to be fairly finished and playable to then be showed in the schools digital showcase. I was a part of a small group of 6 people who all worked on developing this game.",
+                        "Synopsis2": "Since we wanted to make a gambling slot machine game we struggled in accurately creating that feeling, wihout being too overwhelming. There where also many outside challenged faced as we where all in our senior year, dealing with time constraints, jobs, and otherclasses.",
                         "Work": 
                         [{
                             "Design": "Helped develop the Main Scenario and World",
                             "Programming": "Part of a small team that helepd develop the game. Developed a Slot Machine Mechanic, Combat System,Dialogue System, Card Interactions, Item usage, Dictionary, etc.",
                             "UI":"Helped develop and program Menu Page,Credit Page and Menu Page Navigation"
                         }]
-                    }]
+                    }],
+                    "Steps": "Every group (art, design, narrative, programming) would research their tasks respectively, and have meetings with other groups if needed. For programming we prototyped and researched systems and classes that would help us develop and add features more smoothly.",
+                    "Des_Think": "Over a series of 7 weeks a few developers, including myself, would reguarly playtest, or ask others in my class for opinions and thoughts for certain feature's we where unsure of. Within the next days we would implement those ideas and return to playtest the next week. Our team followed the SCRUM process to keep ourself steadily moving foward"
                 }]
     },
     {
@@ -58,20 +64,23 @@
                     "Subtitle": 
                     [{
                         "ItchPath":  "https://citlalli-h.itch.io/you-are-a-ghost",
-                        "Position": "Lead Programmer-2022"
+                        "Position": "Lead Programmer - 2022"
                     }],
                     "Desc":
                     [{
                         "Type": "Point and Click, Interactive Narrative",
                         "PlayType": "Downloadable on Itch.io",
-                        "Synopsis": "You Are a Ghost is a point and click narrative game that uses fun and bright aesthetics to help the player digest a very depressing and realistic story. Dive into the lives of this mundane family and help them tackle their greatest fears, issues, and insecurities.",
+                        "Synopsis": "This game was developed for UCSC CMPM 172 Game Design Studio II as a Senior Project. The process of brainstorming, developing, prototyping, and final prototype was developed in 10 weeks. The game had to be fairly finished and playable to then be showed in the schools in-person showcase. I was a part of a small group of 4 people who all worked on developing this game.",
+                        "Synopsis2": "This was the first Game I developed in Unity and had to overcome that obstacled faced when learning a new tool. In addition the team was small and busy so development was slow. Outside challenges such as power outages and construction, jobs and time constraints also deterred development. The final outcome was different than planned, yet still something we are proud of. ",
                         "Work": 
                         [{
                             "Design": "Helped develop the Main Scenario",
                             "Programming": "Worked with Technical Designer to Program most gameplay aspects of game. Programmed Pathfinding, Dialogue, SpeechBubbles, etc. ",
                             "UI": "Worked on Main Menu and Navigation"
                         }]
-                    }]
+                    }],
+                    "Steps": "Each person talked and met with others if needed. I met often with the technical designer to work on the project together and discuss systems we can incorporate into the game and how.",
+                    "Des_Think": "The last 2 weeks we playtested to get a feel for how the player interacts with the setting and if they would stray from the story. We used the SCRUM system to help push our development foward."
 
                 }]
     },
@@ -90,14 +99,17 @@
                     [{
                         "Type": "Action, Endless Runner",
                         "PlayType": "Play in Browser on Itch.io",
-                        "Synopsis": "This is an endless runner-style game about a witch seeking to cause chaos in a dull world populated by cutesy ghosts. Throw bombs at ghosts to earn points and use the explosive force to launch yourself upwards and continue your rampage for as long as possible! Experience a rapidly increasing challenge as the game gets faster the more you score.",
+                        "Synopsis": "This game was developed for a UCSC undergraduate game development class. It was designed, prototype, and developed in under 5 weeks. This game was cleaned up later by the other programmer and put on Itch.io",
+                        "Synopsis2": "The small development team and time constraint posed a challenge. ",
                         "Work": 
                         [{
                             "Design": " ",
                             "Programming": "Part of a small team of Developers, Developed the Ghost Spawner and Point system",
                             "UI": "Developed Main Menu and Navigation"
                         }]
-                    }]
+                    }],
+                    "Steps": "We had a list of tasks we would frequently update eachother on inorder to make development run smoothly. The producer made sure to often check in and see that we were keeping up with the tasks; aswell as, providing feedback on anything that needed to be edited.",
+                    "Des_Think": "We would protype with other classmates and teachers assistants and bring documents together to discuss and talk about in changes that needed to be made."
 
                 }]
     },
@@ -116,15 +128,17 @@
                     [{
                         "Type": "Stealth Platformer",
                         "PlayType": "Play in Browser on Itch.io",
-                        "Synopsis": "Edge of Detection is a 2D stealth platformer. You have a disguise that you can use to ‘fit in’ and prevent being detected by enemies, but it only lasts a few seconds and takes time to put on. ",
+                        "Synopsis": "This game was developed for a UCSC undergraduate game development class. It was designed, prototype, and developed in under 5 weeks.",
+                        "Synopsis2": "The small development team and time constraint posed a challenge. ",
                         "Work": 
                         [{
                             "Design": "Helped develop the Main Scenario",
                             "Programming": " Developed Detection system (with Raycast), Helped create SFX",
                             "UI": "Helped develop Main Menu and Navigation"
                         }]
-                    }]
-
+                    }],
+                    "Steps": "We had a list of tasks we would frequently update eachother on inorder to make development run smoothly. The producer made sure to often check in and see that we were keeping up with the tasks; aswell as, providing feedback on anything that needed to be edited.",
+                    "Des_Think": "We would protype with other classmates and teachers assistants and bring documents together to discuss and talk about in changes that needed to be made."
                 }]
     }
     
