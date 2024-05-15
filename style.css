@@ -10,7 +10,7 @@ body {
 }
 
 a:link {
-    color:  #8b9ed4;
+    color:  #9978af;
     background-color: transparent;
     text-decoration: none;
 }
@@ -189,12 +189,22 @@ a.anchor {
 }
 
 .pDesc{
-    background-color: #ffffff;
+    background-color:  #c3d4f0;
     color: #000000;
     font-size: 24px;
     line-height: 40px;
     grid-area: pDesc;
     margin: auto;
+}
+
+.pDesc_Cent{
+    background-color:  #c3d4f0;
+    color: #000000;
+    font-size: 24px;
+    line-height: 40px;
+    grid-area: pDesc;
+    margin: auto;
+    text-align: center;
 }
 
 .subHead{

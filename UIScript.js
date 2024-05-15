@@ -11,14 +11,18 @@ function changeTop(type)
     switch(type)
     {
         case "about":
-            document.getElementById("topNav").children[5].className = "active"
+            document.getElementById("topNav").children[6].className = "active"
             break;
 
         case "contact":
-            document.getElementById("topNav").children[4].className = "active"
+            document.getElementById("topNav").children[5].className = "active"
             break;
 
         case "projects":
+            document.getElementById("topNav").children[4].className = "active"
+            break;
+
+        case "art":
             document.getElementById("topNav").children[3].className = "active"
             break;
 
@@ -59,6 +63,9 @@ window.addEventListener("scroll", function(){
     } 
     if(isElementIntoView("#about")){
         changeTop("about");
+    } 
+    if(isElementIntoView("#art")){
+        changeTop("art");
     } 
 });
     
