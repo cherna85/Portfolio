@@ -2,18 +2,20 @@
 <html>
 <head>
 <title>Name</title>
-<link rel="stylesheet" type="text/css" href="Art.css" /> 
+<link rel="stylesheet" type="text/css" href="Art.css" />
+
 </head>
 
 
 <body>
+    <script type= "module" src="artScript.js"></script> 
 
 <div class="topnav">
     <div class="name">Citlalli Hernandez</div>
     <a href="../#current">Current Projects</a>
     <a href="../#work_experience">Work Experience</a>
-    <a href="../#art">Art/Models</a>
-    <a class="active" href="../#projects">Projects</a>
+    <a class="active" href="../#art">Art/Models</a>
+    <a href="../#projects">Projects</a>
     <a href="../#contact">Contact/About</a>
     <a href="../#about">Home</a>
     
@@ -22,11 +24,45 @@
 <div class="square">
     <h2 id = change_Name>name</h2>
 
+<div class="container">
+    <div class="mySlides">
+        <div class="numbertext">1 / 3</div>
+        <img src="..\Art Photos\Music Loot Box\MB1.png" style="width:100%">
+    </div>
 
+    <div class="mySlides">
+        <div class="numbertext">2 / 3</div>
+        <img src="..\Art Photos\Music Loot Box\MB2.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">3 / 3</div>
+        <img src="..\Art Photos\Music Loot Box\MB3.png" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+    <div class="caption-container">
+        <p id="caption"></p>
+    </div>
+
+    <div class="row">
+        <div class="column">
+        <img class="demo cursor" src="..\Art Photos\Music Loot Box\MB1.png" style="width:100%" onclick="currentSlide(1)">
+        </div>
+        <div class="column">
+        <img class="demo cursor" src="..\Art Photos\Music Loot Box\MB2.png" style="width:100%" onclick="currentSlide(2)">
+        </div>
+        <div class="column">
+        <img class="demo cursor" src="..\Art Photos\Music Loot Box\MB3.png" style="width:100%" onclick="currentSlide(3)">
+        </div>
+    </div>
 </div>
+</div>
+
 
 </body>
 
-<script type= "module" src="artScript.js"></script>
 
 </html>

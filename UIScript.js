@@ -1,4 +1,4 @@
-console.log(document.getElementById("topNav").children[5].className);
+
 
 function changeTop(type)
 {
