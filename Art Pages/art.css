@@ -183,3 +183,11 @@ body {
     .demo:hover {
         opacity: 1;
     }
+
+    .txtbox {
+        background-color: #ffffff;
+        width: stretch;
+        padding: 50px;
+        margin: 20px;
+        grid-area: txtbox;
+    }

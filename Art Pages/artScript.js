@@ -28,6 +28,25 @@ console.log(info[artNum].name);
 //change name of box
 document.getElementById("change_Name").innerHTML = info[artNum].name;
 
+//change imaes 1
+document.getElementById("change_img").src = info[artNum].img1;
+document.getElementById("change_img1.1").src = info[artNum].img1;
+
+//change imaes 2
+document.getElementById("change_img2").src = info[artNum].img2;
+document.getElementById("change_img2.1").src = info[artNum].img2;
+
+//change imaes 2
+document.getElementById("change_img3").src = info[artNum].img2;
+document.getElementById("change_img3.1").src = info[artNum].img2;
+
+//
+document.getElementById("change_Background").innerHTML = info[artNum].Background;
+document.getElementById("change_Challenges").innerHTML = info[artNum].Challenges;
+document.getElementById("change_Steps").innerHTML = info[artNum].Steps;
+document.getElementById("change_Applied").innerHTML = info[artNum].Applied;
+
+
 let slideIndex = 1;
 showSlides(slideIndex);
 

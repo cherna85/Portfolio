@@ -1,3 +1,21 @@
 [ {
-    "name": "Music Box Loot Box"
-}]
+    "name": "nope",
+    "img1": "..\/Project Images\/Arlo_Placeholder.png",
+    "img2": "..\/Project Images\/Arlo_Placeholder.png",
+    "img3": "..\/Project Images\/Arlo_Placeholder.png",
+    "Background": "Here i talk about info, client, breif,context,challenge",
+    "Roles": "Roles, objective,deliverables",
+    "Steps": "Steps taken to complete, research, ideation, prototyping, and testing",
+    "Applied": "demonstrate how you applied design thinking tools and techniques"
+},
+{
+    "name": "Music Box Loot Box",
+    "img1": "..\/Art Photos\/Music Loot Box\/MB1.png",
+    "img2": "..\/Art Photos\/Music Loot Box\/MB2.png",
+    "img3": "..\/Art Photos\/Music Loot Box\/MB3.png",
+    "Background": "Developed for ARTG-131-01 3D Game Art Production at UCSC, The entire process of Designing, Modeling, Retopology, UV Mapping/Undwrapping, Baking Texture Maps, Texturing, Engine Intergration(Unity), and Final Presentation was done over 6 weeks. The model had to be done well and our progress was shared with the class every week. This programs used in this class was Maya, Adobe Substance Painter and Unity",
+    "Challenges": "This was a solo project and was the first model I created to go through the pipeline (My first few models having been made a couple of weeks prior). The process of learning did cause me to take things slowly but I found enjoyment while learning",
+    "Steps": "Development was aided by videos provided by the instructor.",
+    "Applied": "The model is intended to be a LootBox, the Lid, Box, and Hinges/Turner are all seperate objects that can be animated if so desired."
+}
+]
