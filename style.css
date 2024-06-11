@@ -97,8 +97,6 @@ a:active {
     width: screen;
     height: auto;
     padding: 50px;
-    padding-bottom: 50px;
-    margin: 20px;
     background-position: centers;
     border: 15px solid rgb(255, 255, 255); 
     display: flex;
@@ -169,7 +167,7 @@ a.anchor {
 }
 
 .container_Projetcs {
-    width: 30%;
+    width: auto;
     padding: 10px;
     display: grid;
     grid-template-areas:
@@ -178,7 +176,8 @@ a.anchor {
             "pDesc pDesc pDesc";
     flex-wrap: wrap;
     justify-self: center;
-    border: 15px solid#c3d4f0; 
+    border: 15px solid  #c3d4f0; 
+    box-sizing: content-box;
     
 }
 

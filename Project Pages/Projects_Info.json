@@ -140,6 +140,34 @@
                     "Steps": "We had a list of tasks we would frequently update eachother on inorder to make development run smoothly. The producer made sure to often check in and see that we were keeping up with the tasks; aswell as, providing feedback on anything that needed to be edited.",
                     "Des_Think": "We would protype with other classmates and teachers assistants and bring documents together to discuss and talk about in changes that needed to be made."
                 }]
+    },
+    {
+        "name": "Nightfall",
+                "contents": 
+                [{
+                    "ImgPath":"..\/Project Images\/Nightfall.png",
+                    "ImgStyle": "width: 494px;height: 278px",
+                    "Subtitle": 
+                    [{
+                        "ItchPath":  "https://citlalli-h.itch.io/nightfall",
+                        "Position": "Programmer - 2023"
+                    }],
+                    "Desc":
+                    [{
+                        "Type": "Narrative, Interactive Fiction",
+                        "PlayType": "Playable on Itch.io",
+                        "Synopsis": "This game was developed for UCSC CMPM 170 Game Design Studio I as a Senior Project. The process of brainstorming, developing, prototyping, and final prototype was developed in 1 week. The game had to be fairly finished and playable to then be showed in a presentation. I was a part of a small group of 2 people who worked on developing this game.",
+                        "Synopsis2": "There where two main issues during development. Firstly, the game could only allow the player to use one button. We struggled in where we could implement the button in the game, aswell as making mechanics simple but entertaining enough to fit our game. Secondly, this project was time constraints such as jobs and otherclasses.",
+                        "Work": 
+                        [{
+                            "Design": "Helped develop the mechanic",
+                            "Programming": "Developed the game fully using the crisp-game-lib library",
+                            "UI":"Develop the menu"
+                        }]
+                    }],
+                    "Steps": "I checked in on progress with the narrative designer, and kept him up-to-date on the state of the game. We took feedback from others to improve the game where we could.",
+                    "Des_Think": " "
+                }]
     }
     
 ]
